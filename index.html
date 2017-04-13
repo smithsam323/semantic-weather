@@ -2,27 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web 3 Starter</title>
-    
+    <title>Semantic Weather</title>
     <!-- Semantic Ui -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  
-  <div class="ui grid">
-  <div class="column">
-      <h1>Col 1</h1> 
+    <main class="ui two coloumn centered grid ">
+       
+       
+        <!-- 1st Column -->
+       
+        <section class="column">
+           <div class="ui styled accordion">
+  <div class="active title">
+    <i class="dropdown icon"></i>
+    Cheney
   </div>
-  <div class="column">
-      <h1>Col 2</h1> 
+  <div class="active content">
+    <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
   </div>
-  
-  <div class="column">
-      <h1>Col 3</h1> 
+  <div class="title">
+    <i class="dropdown icon"></i>
+    Seattle
   </div>
-  
-  
+  <div class="content">
+    <p>There are many breeds of dogs. Each breed varies in size and temperament. Owners often select a breed of dog that they find to be compatible with their own lifestyle and desires from a companion.</p>
+  </div>
+  <div class="title">
+    <i class="dropdown icon"></i>
+    Bellingham
+  </div>
+  <div class="content">
+    <p>Three common ways for a prospective owner to acquire a dog is from pet shops, private owners, or shelters.</p>
+    <p>A pet shop may be the most convenient way to buy a dog. Buying a dog from a private owner allows you to assess the pedigree and upbringing of your dog before choosing to take it home. Lastly, finding your dog from a shelter, helps give a good home to a dog who may not find one so readily.</p>
+  </div>
 </div>
+        </section>
+            
+        <section class="column">
+        <!-- 2nd Column -->
+        <div class="ui card">
+            <div class="image">
+                <img src="http://placehold.it/200x200" alt="">
+                </div>
+            <div class="content">
+               <h3 class="temp"></h3>
+               <h3 class="city"></h3>
+               
+                <h3>City</h3>
+            </div>
+            <div class="description">
+                <p>The weather is</p>
+            </div>
+                    
+                            
+            <!--end.card-->
+            </div>
+        </section>
+    </main>
+  
+  
+
+  
+  
+
   
    
    <i class="bug icon"></i>
@@ -32,6 +75,8 @@
     <!-- Semantic UI -->
     <script src="js/semantic.js"></script>
 
+    <!-- Plugin  -->
+   <script src="js/jquery.simpleWeather.min.js"></script>
     <!-- Our Scripts -->
     <script src="js/scripts.js"></script>
 

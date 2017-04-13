@@ -1,10 +1,15 @@
 /* Style Sheet */
 @import 'semantic';
 body {
-    background: #0a00ff;
+    background: #ff0058;
 }
 
 .column {
     background: #f49999;
     
+}
+
+// Layout
+.centered {
+    width: 90%;
 }
